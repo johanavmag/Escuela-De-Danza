@@ -1,0 +1,171 @@
+/*copiar en paginas*/
+h1{
+	margin: 2%;
+}
+nav ul{
+	list-style-type: none;
+	margin: 1%;
+	padding-bottom: 2%;
+}
+nav li{
+	display: inline;
+	padding:4%;
+	padding-top: 2%
+}
+nav li:hover a {
+	background: transparent;
+}
+nav a:hover{
+	color: #0099ff;
+}
+/*--*/
+.bgimg2{
+	background-image: url("../img/dance_7.jpg");
+	background-size: 100%; 
+	background-position: center;
+	height: 400px;
+}
+.bgimg h2{
+	font-size: 80px;
+}
+.m-5{
+	margin:5%;
+	margin-left: 0px;
+}
+.txt1{
+	position: relative;
+	left: 270px;
+	top: 40px;
+
+}
+/*background transparente */
+
+.text {
+    width: 450px;
+    height: 200px;
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+ 
+.background {
+    width: 450px;
+    height: 200px;
+    background-color: black;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+ 
+.trans {
+    opacity: 0.5;
+}
+/* fin bg trans*/
+.pilar1{
+	position: relative;
+	right: 40px;
+}
+.pilar2{
+	position: relative;
+	left: 40px;
+}
+.cuadros{
+	background-image: url("../img/cubes.png");
+}
+.instructores h2{
+	margin-left: 400px;
+}
+.imgi{
+	height:200px;
+	width:200px;
+	background-size: 150%;
+	background-position: top center;
+}
+.inst1{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_4.jpg");
+}
+.inst2{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_14.jpg");
+}
+.inst3{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_1.jpg");
+}
+.inst4{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_10.jpg");
+}
+.inst5{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_11.jpg");
+	margin-top: 20px;
+}
+.inst6{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_12.jpg");
+	margin-top: 20px;
+}
+.inst7{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_9.jpg");
+	margin-top: 20px;
+}
+.inst8{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/profesor_15.jpg");
+	margin-top: 20px;
+}
+.bg2{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/textura_2.jpg");
+}
+.bg2{
+	font-size: 25px;
+}
+/*copiar en las paginas*/
+button{
+	background-color:#192951;
+	border:transparent;
+	color: white;
+	font-size: 16px;
+	padding: 3%;
+	font-family:"LatoLight"
+}
+.bgzap{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/shoes_1.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+input, .grande [type="search"]{
+	width: 450px; /*ancho por defecto*/
+	background: transparent url("http://www.lolitamoda.com/assets/recortes/icono-persona-9bce4184b737c411e0f42c7113e11520.png") no-repeat 9px center; /*icono lupa*/
+	padding: 9px 10px 9px 32px;
+	-webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+	transition: all .5s; /* transición de .5seg a todos los elementos*/
+	outline: none; /* ocultar el fucos automático de los input */
+}
+input, .grande [type="search"]:focus{
+	width: 480px; /*tamaño del boton buscar al hacer click*/
+	padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+	color: #000;
+	font-size: 20px;
+	background-color: transparent;
+}
+.grande[type="search"]{
+	height: 200px;
+	background: transparent url("http://i1224.photobucket.com/albums/ee366/jd-vktr/Elementos%20Iconos/Edit16.png") no-repeat 9px center;
+}
+.grande[type="search"]:focus{
+	height: 250px;
+
+}
+.mail[type="search"]{
+	background: transparent url("http://www.odsconsultoria.com/wp-content/uploads/2015/09/icono-mail.png") no-repeat 9px center; /*icono mail*/
+}
+
+.enviar{
+	width:480px;
+}
+.bg-blue{
+	background-color: #192951;
+}
+footer{
+	padding: 2%;
+	font-size: 13px;
+}
+h4{
+	font-size: 30px;
+}

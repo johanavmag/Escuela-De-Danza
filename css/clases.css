@@ -1,0 +1,143 @@
+/*------------copiar--------------*/
+h1{
+	margin: 2%;
+}
+header h1 a{
+	text-decoration: none;
+	color:black;
+}
+nav ul{
+	list-style-type: none;
+	margin: 1%;
+	padding-bottom: 2%;
+}
+nav li{
+	display: inline;
+	padding:4%;
+	padding-top: 2%
+}
+nav li:hover a {
+	background: transparent;
+}
+nav a:hover{
+	color: #0099ff;
+}
+.text-black{
+	margin-left: 330px;
+}
+/*--------------------------*/
+.imgof{
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height:350px;
+	width: 250px;
+	font-size: 12px;
+	position: relative;
+}
+.of1{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/dance_12.jpg");
+	background-size: 120%;
+}
+.of2{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/breakdance.jpg");
+}
+.of3{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/lirical-jazz.jpg");
+}
+.of4{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/arabe.jpg");
+}
+.of5{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/little.jpg");
+}
+.of6{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/yoga.jpg");
+	background-size: 120%;
+}
+/*background transparente */
+
+.text {
+    width: 180px;
+    height: 30px;
+    background-color: transparent;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    z-index: 1;
+}
+ 
+.background {
+    width: 230px;
+    height: 80px;
+    background-color: black;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+ 
+.trans {
+    opacity: 0.5;
+    position: relative;
+    top:130px;
+    left: -5px;
+}
+/* fin bg trans*/
+.pd-3{
+	margin: 20px;
+}
+/*------------copiar--------------*/
+button{
+	background-color:#192951;
+	border:transparent;
+	color: white;
+	font-size: 16px;
+	padding: 3%;
+	font-family:"LatoLight"
+}
+.bgzap{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/EscuelaDeDanza/img/shoes_1.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+input, .grande [type="search"]{
+	width: 450px; /*ancho por defecto*/
+	background: transparent url("http://www.lolitamoda.com/assets/recortes/icono-persona-9bce4184b737c411e0f42c7113e11520.png") no-repeat 9px center; /*icono lupa*/
+	padding: 9px 10px 9px 32px;
+	-webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+	transition: all .5s; /* transición de .5seg a todos los elementos*/
+	outline: none; /* ocultar el fucos automático de los input */
+}
+input, .grande [type="search"]:focus{
+	width: 480px; /*tamaño del boton buscar al hacer click*/
+	padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+	color: #000;
+	font-size: 20px;
+	background-color: transparent;
+}
+.grande[type="search"]{
+	height: 200px;
+	background: transparent url("http://i1224.photobucket.com/albums/ee366/jd-vktr/Elementos%20Iconos/Edit16.png") no-repeat 9px center;
+}
+.grande[type="search"]:focus{
+	height: 250px;
+
+}
+.mail[type="search"]{
+	background: transparent url("http://www.odsconsultoria.com/wp-content/uploads/2015/09/icono-mail.png") no-repeat 9px center; /*icono mail*/
+}
+
+.enviar{
+	width:480px;
+}
+.bg-blue{
+	background-color: #192951;
+}
+footer{
+	padding: 2%;
+	font-size: 13px;
+}
+/*--------------------------*/
+h4{
+	font-size: 30px;
+}
